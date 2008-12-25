@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+_ext/*
+.project
+.pydevproject
+settings_local.py
+Makefile.def
+.coverage

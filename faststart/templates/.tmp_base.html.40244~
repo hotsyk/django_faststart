@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+    <title></title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        
+    <link href="/static/css/style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    {% block extra_meta %}{% endblock %}
+</head>
+<body>
+    <!--<div class="head_box">-->
+        <!--<div class="head main-box">-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <div class="content_box">
+        <div class="content main-box">
+        {% block content %}{% endblock %}
+        </div>
+    </div>
+
+    <div class="footer_box">
+        <div class="footer main-box">
+            <div class="inner">
+            <div class="left copyright"></a></div>    
+            <div class="right">
+                <!--LiveInternet counter--><script type="text/javascript"><!--
+                document.write("<a href='http://www.liveinternet.ru/click' "+
+                "target=_blank><img src='http://counter.yadro.ru/hit?t24.6;r"+
+                escape(document.referrer)+((typeof(screen)=="undefined")?"":
+                ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+                screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+                ";"+Math.random()+
+                "' alt='' title='LiveInternet: показано число посетителей за"+
+                " сегодня' "+
+                "border=0 width=88 height=15><\/a>")//--></script><!--/LiveInternet-->
+            </div>
+            <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

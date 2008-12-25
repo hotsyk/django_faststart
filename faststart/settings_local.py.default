@@ -1,0 +1,43 @@
+# -*- python -*-
+import os, sys
+
+MEDIADIR = os.path.join(os.path.dirname(os.path.abspath(os.path.dirname(__file__))), 'static')
+
+# Admininstration settings
+ADMIN_MEDIA_PREFIX = '/media/admin/'
+
+ADMINS = (
+    ('Change It', 'mail@change.it'),
+)
+
+MANAGERS = ADMINS
+
+# Database settings
+DATABASE_ENGINE = 'sqlite3'
+DATABASE_HOST = ''
+DATABASE_USER = ''
+DATABASE_PASSWORD = ''
+DATABASE_NAME = 'faststart.db'
+DATABASE_PORT = ''
+
+# Date and time settings
+TIME_ZONE = 'Europe/Kiev'
+
+# Debug settings
+DEBUG = True
+TEMPLATE_DEBUG = DEBUG
+
+# Email settings
+DEFAULT_FROM_EMAIL = 'test <localhost@locahost>'
+EMAIL_HOST = 'localhost'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = 25
+EMAIL_USE_TLS = False
+
+# Media pathes
+MEDIA_ROOT = MEDIADIR
+MEDIA_URL = '/media/'
+
+# Other **Django**-related settings
+SECRET_KEY = 'changeit'
