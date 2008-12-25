@@ -6,3 +6,4 @@ _ext/*
 settings_local.py
 Makefile.def
 .coverage
+*.db
