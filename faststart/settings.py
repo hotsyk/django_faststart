@@ -52,7 +52,14 @@ INSTALLED_APPS = (
     'django.contrib.humanize',
     'django.contrib.sessions',
     'django.contrib.sites',
-
+	'admin_wmdeditor',
+	'debug_toolbar',
+	'django_extensions',
+	'django_markup',
+	'mailer',
+	'south',
+	'tagging',
+		
     'faststart.app',
 
 )
