@@ -1,0 +1,18 @@
+[submodule "lib/django-debug-toolbar-repo"]
+	path = lib/django-debug-toolbar-repo
+	url = git://github.com/robhudson/django-debug-toolbar.git
+[submodule "lib/django-extensions-repo"]
+	path = lib/django-extensions-repo
+	url = git://github.com/django-extensions/django-extensions.git
+[submodule "lib/django-markup-repo"]
+	path = lib/django-markup-repo
+	url = git://github.com/bartTC/django-markup.git
+[submodule "lib/django-mailer-repo"]
+	path = lib/django-mailer-repo
+	url = git://github.com/brosner/django-mailer.git
+[submodule "lib/tddspry-repo"]
+	path = lib/tddspry-repo
+	url = git://github.com/42/tddspry.git
+[submodule "lib/django-admin-wmeditor-repo"]
+	path = lib/django-admin-wmeditor-repo
+	url = git://github.com/stephrdev/django-admin-wmdeditor.git
